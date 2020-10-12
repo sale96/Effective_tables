@@ -9,6 +9,8 @@ namespace EffectiveTables.Domain.Entities
         public string Name { get; set; }
         public int Order { get; set; }
         public int TableId { get; set; }
-        public Table Table { get; set; }
+        public virtual Table Table { get; set; }
+        public virtual ICollection<Card> Cards { get; set; }
+        public virtual ICollection<ColumnLog> ColumnLogs { get; set; }
     }
 }
