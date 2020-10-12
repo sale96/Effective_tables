@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EffectiveTables.Domain
+namespace EffectiveTables.Domain.Entities
 {
     public class TableColumn : BaseEntity
     {

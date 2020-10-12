@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace EffectiveTables.Domain
+namespace EffectiveTables.Domain.Entities
 {
     public class Table : BaseEntity
     {
