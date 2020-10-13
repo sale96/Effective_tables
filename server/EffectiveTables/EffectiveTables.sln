@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffectiveTables.Implementat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffectiveTables.DataAccess", "EffectiveTables.DataAccess\EffectiveTables.DataAccess.csproj", "{28EB5C62-5147-42B9-BEEF-2387F164AFC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffectiveTables.Api", "EffectiveTables.Api\EffectiveTables.Api.csproj", "{2D7FFE41-E2EE-480B-AA7C-E7042919D3CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{28EB5C62-5147-42B9-BEEF-2387F164AFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28EB5C62-5147-42B9-BEEF-2387F164AFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28EB5C62-5147-42B9-BEEF-2387F164AFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7FFE41-E2EE-480B-AA7C-E7042919D3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7FFE41-E2EE-480B-AA7C-E7042919D3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7FFE41-E2EE-480B-AA7C-E7042919D3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7FFE41-E2EE-480B-AA7C-E7042919D3CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
