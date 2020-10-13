@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EffectiveTables.Application\EffectiveTables.Application.csproj" />
+    <ProjectReference Include="..\EffectiveTables.Domain\EffectiveTables.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
