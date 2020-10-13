@@ -4,11 +4,11 @@ using System.Text;
 
 namespace EffectiveTables.Domain.Entities
 {
-    public class ColumnLog : BaseEntity
+    public class TableLog : BaseEntity
     {
         public string Description { get; set; }
         public DateTime LogTime { get; set; }
-        public int TableColumnId { get; set; }
-        public virtual TableColumn TableColumn { get; set; }
+        public int TableId { get; set; }
+        public virtual Table Table { get; set; }
     }
 }

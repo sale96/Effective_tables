@@ -6,5 +6,6 @@ namespace EffectiveTables.Domain.Entities
     {
         public string Name { get; set; }
         public virtual ICollection<TableColumn> TableCollumns { get; set; }
+        public virtual ICollection<TableLog> TableLogs { get; set; }
     }
 }
