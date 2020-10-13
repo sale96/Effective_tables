@@ -9,6 +9,6 @@ namespace EffectiveTables.Domain.Entities
         public string Description { get; set; }
         public DateTime LogTime { get; set; }
         public int TableColumnId { get; set; }
-        public TableColumn TableColumn { get; set; }
+        public virtual TableColumn TableColumn { get; set; }
     }
 }
