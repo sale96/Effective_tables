@@ -10,9 +10,11 @@ namespace EffectiveTables.Domain.Entities
         public string Description { get; set; }
         public int Order { get; set; }
         public int CardLabelId { get; set; }
-        public CardLabel CardLabel { get; set; }
+        public virtual CardLabel CardLabel { get; set; }
 
         public int TableColumnId { get; set; }
         public virtual TableColumn TableColumn { get; set; }
+
+        public virtual ICollection<Comment> Comments { get; set; }
     }
 }

@@ -8,5 +8,8 @@ namespace EffectiveTables.Domain.Entities
     {
         public string Description { get; set; }
         public int Likes { get; set; }
+
+        public int CardId { get; set; }
+        public virtual Card Card { get; set; }
     }
 }
