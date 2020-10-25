@@ -7,4 +7,4 @@
      - CQRS
  
  ## Setup
- - Update appsettings.json file for connection string
+ - Run ```./setup.sh``` in terminal window it will ask for an information about database user and password.
