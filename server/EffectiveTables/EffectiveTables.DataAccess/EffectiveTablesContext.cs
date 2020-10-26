@@ -7,15 +7,9 @@ namespace EffectiveTables.DataAccess
 {
     public class EffectiveTablesContext : DbContext
     {
-        private readonly IContextConfiguration _configuration;
-        public EffectiveTablesContext(IContextConfiguration configuration)
-        {
-            _configuration = configuration;
-        }
-
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
-            builder.UseSqlServer(_configuration.GetConnectionString());
+            builder.UseSqlServer();
             base.OnConfiguring(builder);
         }
     }
