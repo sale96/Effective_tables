@@ -13,3 +13,6 @@
 
     - ```export $EFFECTIVE_TABLES_CONNECTION_WIN```
     - ```export $EFFECTIVE_TABLES_CONNECTION_UNIX```
+
+- After setting environment variables
+    - Run ```dotnet build``` in /server directory to make sure that everything works as intended 
