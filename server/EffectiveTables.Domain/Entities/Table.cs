@@ -5,7 +5,7 @@ namespace EffectiveTables.Domain.Entities
     public class Table : BaseEntity
     {
         public string Name { get; set; }
-        public virtual ICollection<TableColumn> TableCollumns { get; set; }
+        public virtual ICollection<TableColumn> TableColumns { get; set; }
         public virtual ICollection<TableLog> TableLogs { get; set; }
     }
 }
