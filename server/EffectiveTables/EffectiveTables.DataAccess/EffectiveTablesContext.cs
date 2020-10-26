@@ -17,7 +17,8 @@ namespace EffectiveTables.DataAccess
                 RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
             {
                 connectionString = Environment.GetEnvironmentVariable("EFFECTIVE_TABLES_CONNECTION_UNIX");
-            } else if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+            }
+            else
             {
                 connectionString = Environment.GetEnvironmentVariable("EFFECTIVE_TABLES_CONNECTION_WIN");
             }
