@@ -6,14 +6,13 @@
      - Basic Domain driven design
      - CQRS
  
- ## Setup
- - #### Set environment variable for connection string but change user and password
+## Setup
+- In ```server/EffectiveTables/DataAccess/Configuration/``` create .env file and paste content below just change user and password values
     - ##### Windows
-        - ```EFFECTIVE_TABLES_CONNECTION_WIN="DefaultConnection": "Data Source=(localdb)//[YOUR_USER];Password=[YOUR_PASSWORD];Initial Catalog=EffectiveTables;Integrated Security=True"```
-        - ```export $EFFECTIVE_TABLES_CONNECTION_WIN```
-    - ##### Unix
-        - ```EFFECTIVE_TABLES_CONNECTION_UNIX="Server=localhost;Database=EffectiveTables;User Id=[YOUR_USER];Password=[YOUR_PASSWORD];Integrated Security=True```
-        - ```export $EFFECTIVE_TABLES_CONNECTION_UNIX```
+        - ```Data Source=(localdb)//[YOUR_USER];Password=[YOUR_PASSWORD];Initial Catalog=EffectiveTables;Integrated Security=True"```
+    - ##### Linux
+        - ```Server=localhost;Database=EffectiveTables;User Id=[YOUR_USER];Password=[YOUR_PASSWORD];Integrated Security=True"```
+        - If you get ```Cannot authenticate using Kerberos.``` error try deleting ```Integrated Security=True``` and add ```Trusted_Connection=False``` but this is not recomended.
 
 
 - After setting environment variables
