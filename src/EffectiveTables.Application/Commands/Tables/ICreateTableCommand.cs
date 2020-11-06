@@ -1,8 +1,8 @@
-using EffectiveTables.Domain.Entities;
+using EffectiveTables.Application.Dto;
 
 namespace EffectiveTables.Application.Commands.Tables
 {
-    public interface ICreateTableCommand : ICommand<Table>
+    public interface ICreateTableCommand : ICommand<DtoTable>
     {
     }
 }
