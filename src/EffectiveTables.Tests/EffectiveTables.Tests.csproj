@@ -13,4 +13,11 @@
         <PackageReference Include="coverlet.collector" Version="1.2.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\EffectiveTables.Application\EffectiveTables.Application.csproj" />
+      <ProjectReference Include="..\EffectiveTables.DataAccess\EffectiveTables.DataAccess.csproj" />
+      <ProjectReference Include="..\EffectiveTables.Domain\EffectiveTables.Domain.csproj" />
+      <ProjectReference Include="..\EffectiveTables.Implementation\EffectiveTables.Implementation.csproj" />
+    </ItemGroup>
+
 </Project>

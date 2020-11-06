@@ -5,10 +5,10 @@ namespace EffectiveTables.Tests
     public class TableTests
     {
         #region Crud
-
         [Fact]
         public void CreateTableTest()
         {
+            
         }
         
         [Fact]
