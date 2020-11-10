@@ -4,8 +4,7 @@ namespace EffectiveTables.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BaseApiController
+    public abstract class BaseApiController : ControllerBase
     {
-        
     }
 }
