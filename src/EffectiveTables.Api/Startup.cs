@@ -1,3 +1,4 @@
+using EffectiveTables.Api.Core;
 using EffectiveTables.DataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -31,6 +32,8 @@ namespace EffectiveTables.Api
             }
 
             app.UseRouting();
+            
+            app.UseMiddleware<GlobalExceptionHandler>();
 
             app.UseAuthorization();
 
