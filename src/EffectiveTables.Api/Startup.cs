@@ -26,7 +26,7 @@ namespace EffectiveTables.Api
         {
             services.AddControllers();
 
-            services.AddTransient<EffectiveTablesContext>();
+            services.AddDbContext<EffectiveTablesContext>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
