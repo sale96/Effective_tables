@@ -1,3 +1,5 @@
+using System;
+
 namespace EffectiveTables.Application
 {
     public class UseCaseExecutor
@@ -13,6 +15,7 @@ namespace EffectiveTables.Application
             ICommand<TRequest> command,
             TRequest request)
         {
+            Console.WriteLine($"Executing {command.Name}");
             command.Execute(request);
         }
     }

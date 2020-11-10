@@ -9,4 +9,8 @@
     <ProjectReference Include="..\EffectiveTables.Domain\EffectiveTables.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Queries" />
+  </ItemGroup>
+
 </Project>
